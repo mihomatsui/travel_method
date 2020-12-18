@@ -1,4 +1,31 @@
-# 旅行データ
+# プランを表示する
+# 商品を選択する
+# 人数を決定する
+# 合計金額を計算する
+
+# プランを表示する
+def travel_plan_list
+end
+
+# 商品を選択する
+def select_travel_num
+end
+
+# 人数を決定する
+def decide_count_people
+end
+
+# 合計金額を計算する
+def calculate_price
+end
+
+# メソッドを呼び出す
+travel_plan_list
+select_travel_num
+decide_count_people
+calculate_price
+
+# プランを表示する
 travels = [
   {place: "沖縄旅行", price: 10000},
   {place: "北海道旅行", price: 20000},
