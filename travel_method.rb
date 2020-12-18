@@ -4,29 +4,29 @@
 # 合計金額を計算する
 
 # プランを表示する
-def travel_plan_list
+def disp_plans
 end
 
-# 商品を選択する
-def select_travel_num
+# プランを選択する
+def choose_plan
 end
 
 # 人数を決定する
-def decide_count_people
+def decide_number_of_people
 end
 
 # 合計金額を計算する
-def calculate_price
+def calculate_charges
 end
 
-# メソッドを呼び出す
-travel_plan_list
-select_travel_num
-decide_count_people
-calculate_price
+# メソッドを呼び出す部分 ----------------------
+disp_plans # プランを表示する
+choose_plan # プランを選択する
+decide_number_of_people # 人数を決定する
+calculate_charges # 合計金額を計算する
 
 # プランを表示する
-travels = [
+plans = [
   {place: "沖縄旅行", price: 10000},
   {place: "北海道旅行", price: 20000},
   {place: "九州旅行", price: 15000},
