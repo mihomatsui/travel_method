@@ -15,12 +15,10 @@ def choose_plan(plans)
     print "プランの番号を選択 > "
     select_plan_num = gets.to_i
     break if (1..3).include?(select_plan_num)
-    puts "1〜3の番号を入力して下さい。"
+      puts "1〜3の番号を入力して下さい。"
   end
   chosen_plan = plans[select_plan_num - 1]
 end
-
-
 
 # 人数を決定する
 def decide_number_of_people(chosen_plan)
