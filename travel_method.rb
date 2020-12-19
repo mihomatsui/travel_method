@@ -32,6 +32,7 @@ def decide_number_of_people(chosen_plan)
     break if number_of_people >= 1
     puts "1以上を入力して下さい。"
   end
+  number_of_people
 end
 
 # 合計金額を計算する
