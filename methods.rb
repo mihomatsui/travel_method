@@ -37,6 +37,7 @@ def calculate_charges(chosen_plan, number_of_people)
     total_price *= 0.9
     puts "5名以上ですので10%割引となります"
   end
+  puts "#{number_of_people}名ですね。"
   puts "合計料金は#{total_price.floor}円になります。"
 end
 
