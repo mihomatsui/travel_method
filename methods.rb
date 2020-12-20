@@ -40,5 +40,3 @@ def calculate_charges(chosen_plan, number_of_people)
   end
   puts "合計料金は#{total_price.floor}円になります。"
 end
-
-# メソッドを呼び出す部分 ----------------------
